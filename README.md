@@ -15,5 +15,5 @@ you have configured `spark-defaults.conf` to talk to MinIO deployment.
 ~ spark-submit --class "ParquetGenerator" --master spark://masternode:7077 \
     --packages org.apache.hadoop:hadoop-aws:3.1.2 --driver-memory 100G \
     --executor-memory 200G --total-executor-cores 256 \
-    target/scala-2.12/simple-project_2.12-1.0.jar 1000000000 1000 s3a://benchmarks/1b/
+    target/scala-2.12/parquet-data-generator_2.12-1.0.jar 1000000000 1000 500 s3a://benchmarks/1b-500/
 ```

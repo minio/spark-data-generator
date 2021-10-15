@@ -1,4 +1,4 @@
-name := "Simple Project"
+name := "Parquet Data Generator"
 
 version := "1.0"
 
